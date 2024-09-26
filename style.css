@@ -1,0 +1,88 @@
+body {
+    background-image: url(images/Фон\ \(картинка\).svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.wrapper {
+    color: white;
+    display: flex;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.image-01 {
+    margin-top: 77px;
+    margin-left: 245px;
+    display: flex;
+    align-items: center;
+}
+.image-02 {
+    margin-right: 235px;
+    margin-top: 89px;
+}
+.item-01 {
+    margin-left: 244px;
+    margin-top: 122px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+
+}
+.item-02 {
+    margin-top: 92px;
+    margin-right: 90px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;    
+    margin-left: 90px;
+    border: 0;
+    border-width: none;
+    position: relative;
+    display: flex;
+}
+
+.item-02:hover {
+    color: #ACCC67;
+    transition: 0.2s;
+}
+.item-03 {
+    margin-top: 92px;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+}
+.item-04 {
+    margin-top: 92px;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.item-05 { 
+    margin-top: 92px;
+    margin-right: 224px;
+    display: flex;
+    align-items: center;
+}
+.item-description-01 {
+    margin-right: 14px;
+    
+}.content {
+    align-items: center;
+    margin-left: 244px;
+    
+}
+.item-description-02 {
+    display: none;
+   position: absolute;
+}
+.item-02:hover .item-description-02 {
+    display: block;
+}
+
+@media (max-width: 768px) {
+
+}
